@@ -1,0 +1,14 @@
+/*color properties  */
+/* color background */
+/* in html & css there are about 140 named colors */
+#first
+{
+    color: antiquewhite;
+    background-color: black;
+
+}
+#second
+{
+    color:red;
+    background-color: yellow;
+}

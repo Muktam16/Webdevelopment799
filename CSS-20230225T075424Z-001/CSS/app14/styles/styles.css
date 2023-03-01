@@ -1,0 +1,25 @@
+/* last rule  and specificity
+/*((*) universal selector --> last priority */
+/*
+.special{
+    color:blue;
+
+    /* background-color: black; */
+
+/* }
+p{
+    color: red;
+
+}
+p{color:yellowgreen;} /*here last p takes as main */
+
+/* .heading
+{
+    color:green; */
+
+/* (star / *) means it selects to all* if theere are no classes then unversal selector plays main role/
+  (last prefernce will be give to universal selector*/
+*
+{
+    color:crimson
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<form>
+<link rel ="stylesheets" href="./styles/styles.css">
+<h1 style="background-color:black ; color: rgba(0, 0, 255, 0.575);display: inline;"> Enter Your Details</h1>
+<body style="background-color: chartreuse;">
+    <br><br>
+<label for=" firstName" >FirstName : </label>
+<input type = "text" id ="firstName" name="firstName" placeholder="firstName"><br><br>
+<label for=" secondName" >SecondName : </label>
+<input type = "text" id ="secondName" name="secondName" placeholder="secondName"><br><br>
+<label for=" Mobile" >Mobile : </label>
+<input type = "Number" id ="Mobile" name="number" placeholder="Mobile-No"><br><br>
+<label for=" Gmail" >e-Mail : </label>
+<input type = "gmail" id ="Gmail" name="Gmail" placeholder="Gmail"><br><br>
+<label for ="Address">Address: </label>
+<input type ="text"id="Address" id ="Address" placeholder="Address"><br><br>
+<button type ="button" onclick="displayDetails()">Submit</button>
+<br><br>
+<div id ="display"></div>
+</form>
+<p id = "message"></p>
+</body>
+<div></div>
+</html>
+<script>
+function displayDetails()
+{
+    const firstName = document.getElementById("firstName").value;
+    const secondName = document.getElementById("secondName").value;
+    const Gmail = document.getElementById("Gmail").value;
+    const Address = document.getElementById("Address").value;
+    document.getElementById("display").innerHTML = "firstName :" + firstName + "<br> secondName : " + secondName +
+    "<br> Gmail : " + Gmail +
+    "<br> Address : " + Address  ;
+
+}
+
+</script>
+

@@ -1,0 +1,12 @@
+/* pixels - absolute value - one dot on the screen */
+/* width - width of an element */
+/* heigh - height of an elment */
+/* font-size - size of the font */
+
+h1{
+    font-size: 60px;
+    background: chartreuse;
+    color: wheat;
+    width: 1000px;
+    height: 800px;
+}

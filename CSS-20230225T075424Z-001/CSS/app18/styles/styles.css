@@ -1,0 +1,38 @@
+/* HSL value for advanced users */
+/* HEX values #RRGGBB */
+/* 123456789 A B C D E F
+             10 12 13 14 15
+              #FF0000 - red
+              #00FF00 - green
+              #0000FF - blue */
+
+#first{
+    color : #FF0000;
+    background-color: #000 ;
+}
+
+#second{
+    color : #fff;
+    background-color: #00ff00 ;
+}
+
+#third{
+    color : #0000ff;
+    background-color: #f1f1f1 ;
+}
+
+#four{
+    color : #ff23ffFF;
+    background-color: #979797;
+}
+/* syntax for HSL  (hue saturation & light )
+hue - means degree on color wheel  0 to 360(0-red)
+saturation - % value) 0% shade of grey
+100% full color
+Lightness  - % is black, 50% is neither light or dark,
+100% it is pure white*/
+
+#five{
+
+    background-color : hsla(20, 30%, 40%, 0.418)
+}

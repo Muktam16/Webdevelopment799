@@ -1,0 +1,12 @@
+/* % percentage  - relative ,depends on the parent */
+.outer{
+    width: 200px;
+    height: 200px;
+    background: chartreuse;
+}
+
+.inner{
+    width : 100px;
+    height: 100px;
+    background: black;
+}

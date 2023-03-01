@@ -1,0 +1,62 @@
+#title
+{
+ color: chartreuse;
+
+}
+
+.blue-uppercase
+{
+    color:blue;
+    text-transform :uppercase;
+}
+
+.blue-title
+{
+   color:blue;
+   text-transform: uppercase;
+}
+
+.dodgerblue
+{
+    color:dodgerblue;
+}
+
+.red{
+    color :red;
+}
+/* id will be more preference */
+.yellow{
+
+    color :yellow;
+}
+
+.blue
+{
+    color :blue;
+    text-transform: uppercase;
+}
+.brown{
+
+    color :brown;
+}
+
+.orange
+{
+    color :orange;
+    text-transform: uppercase;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+ .title{
+    color:black;
+    text-transform: lowercase;
+
+ }
+ .lowecase{
+    color:brown;
+    text-transform: uppercase;
+    padding: auto;
+    border-radius: 20%;
+    background-color: aqua;
+ }

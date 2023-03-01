@@ -1,0 +1,21 @@
+h1,p
+{
+    color: antiquewhite;
+}
+h1{
+    background:red ;
+    padding: 21px;
+    border: 0.6px dotted gold;
+    margin: 3rem;
+
+}
+p
+{
+    background: blue;
+    padding: 20px;
+    border: 12px dotted black;
+    margin: 3rem;
+}
+*{
+    margin: 0px;
+}

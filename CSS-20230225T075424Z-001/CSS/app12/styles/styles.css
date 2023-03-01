@@ -1,0 +1,18 @@
+/*inheritance = acquirng the prperties from child*/
+/*unless if they have own styles*/
+body{
+    color:brown;
+
+}
+
+.special{
+ color: chartreuse;
+}
+
+h2{
+    color:cornflowerblue;
+}
+
+div{
+    color:greenyellow;
+}

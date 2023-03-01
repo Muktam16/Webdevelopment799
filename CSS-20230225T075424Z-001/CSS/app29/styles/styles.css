@@ -1,0 +1,23 @@
+h1,p{
+    color: beige;
+
+}
+h1{
+    background-color:red ;
+    padding: 20px;
+    border-style:0.5 dashed orange;
+    border-color: chartreuse;
+    border-top-width: 10px;
+    border-left-width: 10px;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    /* border-width: 8px; */
+
+}
+p
+
+{
+    background-color:black;
+    border: 1rem dashed red;
+    padding: 5px 10px 5px 15px;
+}
